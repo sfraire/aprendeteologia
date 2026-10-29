@@ -87,3 +87,6 @@ section{scroll-margin-top:70px}
 .about{display:grid;gap:2rem;align-items:center}.muted{color:var(--muted)}
 .photo-slot{aspect-ratio:4/5;max-width:280px;width:100%;margin:auto;border-radius:20px;border:1px dashed #cbbfa8;background:#efe6d5;display:grid;place-items:center;color:var(--muted);font-size:.85rem}
 @media(min-width:800px){.pricing{grid-template-columns:1fr 1fr}.about{grid-template-columns:1fr 1.5fr}}
+.sponsor{margin-top:1.25rem;text-align:center;padding:2.5rem 1.5rem;border-radius:20px;background:linear-gradient(135deg,#f3e9d6,#fff);border:1px solid #e3d3b3}
+.sponsor-line{font-family:var(--serif);font-style:italic;font-size:clamp(1.4rem,4vw,1.9rem);margin-bottom:1.5rem}
+.sponsor-btn{background:var(--gold);color:#fff;font-size:1.05rem;padding:1.05rem 2.2rem;box-shadow:0 10px 24px rgba(176,138,74,.3)}

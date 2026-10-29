@@ -11,3 +11,4 @@ Sitio estático (HTML/CSS/JS). Abrir `index.html`. Incluye `<meta name="robots" 
 6. Descripción del libro y bio de Paola: no incluidas.
 Horario y dirección de Hope City tomados de hopecity.mx (29 oct 2026).
 7. Acerca de Paola: foto (img\/paola.jpg) y biografía pendientes.
+8. Beca a un estudiante ($500 MXN al mes): botón apunta a mailto provisional; necesita enlace de pago real (p. ej. suscripción Stripe / Mercado Pago).
