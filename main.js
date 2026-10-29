@@ -5,3 +5,6 @@ document.getElementById('y').textContent=new Date().getFullYear();
 document.querySelectorAll('.tab').forEach(t=>t.onclick=()=>{const y=t.dataset.y;
 document.querySelectorAll('.tab').forEach(x=>{x.classList.toggle('on',x===t);x.setAttribute('aria-selected',x===t)});
 document.querySelectorAll('.panel').forEach(p=>p.classList.toggle('on',p.dataset.y===y))});
+document.documentElement.classList.add('js');
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.section>h2,.grid,.outcomes,blockquote,.tabs,.sponsor,.leaders,.diploma,.book>div,.cover').forEach(el=>{el.classList.add('reveal');io.observe(el)});
