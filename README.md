@@ -4,7 +4,7 @@ Sitio estático (HTML/CSS/JS). Abrir `index.html`. Incluye `<meta name="robots" 
 
 ## Placeholders por reemplazar
 1. Tagline del hero (texto provisional).
-2. Plan de estudios: los 3 niveles y sus materias son **contenido de ejemplo**.
+2. Plan de estudios: REEMPLAZADO con el plan real de Paola (29 oct 2026).
 3. Inscripción: botón `mailto:contacto@aprendeteologia.com` es provisional (correo no confirmado); no hay formulario ni pago.
 4. Prédicas: 3 espacios de video vacíos; agregar IDs reales de YouTube.
 5. Portada del libro: placeholder tipográfico (Amazon bloqueó la descarga); poner `img/portada.jpg`.
